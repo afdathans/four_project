@@ -2,208 +2,179 @@
   font-family: "Poppins";
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   color: white;
 }
-
-/* Navv */
 nav {
   background-color: #1f1d36;
   font-weight: bold;
 }
-/* Endnavv */
-/* .Firstsection */
+/* .container {
+  border: 1px solid;
+} */
+section h2 {
+  padding-top: 30px;
+}
+/* firstsection */
 .firstsection {
-  color: azure;
-  padding-top: 100px;
   background-color: #1f1d36;
-  padding-bottom: 110px;
 }
 .firstsection .container {
   display: flex;
-  flex-direction: row;
-  margin-top: 40px;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  padding-top: 11rem;
+  padding-bottom: 11rem;
 }
-.right img {
-  margin-right: -50px;
-  width: 350px;
+.firstsection img {
+  margin-left: auto;
+  width: 20rem;
 }
-.left {
-  padding-top: 80px;
-  font-family: "Poppins";
+.firstsection .right {
+  display: flex;
+  flex: 1;
 }
-.keterangan {
-  margin-top: -10px;
+.firstsection .left {
+  margin-top: auto;
+  flex: 2;
 }
-.left .keterangan2 {
+.firstsection .start {
   margin-top: -20px;
+  display: flex;
 }
-.left h3 {
-  margin-top: -10px;
-}
-.left .row {
-  margin-top: -50;
+.left p {
+  flex: 2;
 }
 .left button {
-  border-color: #1f1d36;
-  margin-left: 100px;
-  font-weight: bold;
-  color: white;
   background-color: #1f1d36;
-  border-radius: 20%;
-  font-size: 20px;
+  flex: 1;
+  margin-top: 20px;
 }
+/* EndSection */
 /* SecondSection */
-/* About */
 .SecondSection {
   background-color: #1f1d36;
+  justify-content: center;
 }
+.SecondSection .container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.SecondSection .left {
+  margin-left: auto;
+  flex: 1;
+  margin-right: 30px;
+}
+.SecondSection .right {
+  margin-right: auto;
+  flex: 1;
+}
+.SecondSection .right p {
+  margin-top: 40px;
+}
+/* EndSection */
 /* ThreeSection */
-/* Skilll */
 .ThreeSection {
   background-color: #1f1d36;
 }
-.ThreeSection img {
-  width: 100px;
-}
 .ThreeSection .container {
   display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
   flex-wrap: wrap;
-  text-align: center;
 }
 .ThreeSection .card {
-  justify-content: space-evenly;
-  margin-right: auto;
-  margin-left: auto;
+  border: none;
+  color: aliceblue;
 }
-.ThreeSection p {
-  margin-right: 2rem;
+.ThreeSection .card p {
+  margin-top: auto;
 }
-
+/* EndSection */
 /* FourSection */
-/* Project */
 .FourSection {
   background-color: #1f1d36;
 }
 .FourSection .container {
-  display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  flex-direction: row;
+  display: flex;
   justify-content: center;
 }
-/* FiftSection */
-/* Komen */
+.FourSection .gambar {
+  margin: 2rem;
+  justify-content: center;
+  width: 30rem;
+  background-color: #1f1d36;
+}
+.FourSection .gambar img {
+  width: 95%;
+  margin: 1rem;
+}
+.FourSection .gambar p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+/* EndSection */
+/* Testi */
 .testi {
   background-color: #1f1d36;
 }
-.contactus {
-  height: 790px;
-  margin-top: 30px;
-}
-.contactus hr {
-  margin-bottom: 60px;
-}
-.contactus iframe {
-  border-radius: 50px;
-}
-.contactus h3 {
-  font-size: 30px;
-  text-align: center;
-}
-#input {
-  width: 435px;
-  padding-inline: 0px;
-  margin-bottom: 15px;
-  border: none;
-  background-color: transparent;
-  border-bottom: 2px solid black;
-  color: black;
-  font-size: 20px;
-}
-#message {
-  width: 100%;
-  margin-bottom: 15px;
-  padding-inline: 0px;
-  border: none;
-  background-color: transparent;
-  border-bottom: 2px solid black;
-  color: black;
-  font-size: 20px;
-  height: 80px;
-}
-#submit {
-  width: 100%;
-  height: 40px;
-  border: none;
-  background-color: rgb(39, 39, 39);
-  font-size: 20px;
-  color: rgb(255, 255, 255);
-  border-radius: 30px;
-  align-items: center;
-}
-table {
-  color: black;
-  font-size: 22px;
-  margin-left: 10px;
-}
-.contactus .container1 {
-  background-color: #1f1d36;
-  border-radius: 20px;
-}
-.footer {
-  height: 200px;
-  background-color: rgb(15, 15, 15);
-  background-size: cover;
-}
-.footer .brand {
-  font-size: 40px;
-  margin-left: -80px;
-  margin-top: 40px;
-  color: white;
-}
-.footer .sosmed {
-  color: white;
-  float: right;
-  font-size: 30px;
-  margin-top: -100px;
-}
-.footer a {
-  text-decoration: none;
-  color: white;
-}
-.copyright {
-  color: white;
-  float: left;
-  position: absolute;
-  margin-left: -100px;
-  top: 30px;
-}
-.footer button {
-  background-color: transparent;
-  border: none;
-  font-size: 40px;
-}
-.footer .power {
-  color: white;
-  float: right;
-  position: absolute;
-  top: 30px;
-  margin-left: 850px;
-}
 .testi .card {
   background-color: #1f1d36;
+  width: 20rem;
 }
-.testi img {
-  width: 10rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* SixSecion */
+/* EndTesti */
 .SixSection {
   background-color: #1f1d36;
-  color: white;
-  padding-bottom: 50px;
 }
 .SixSection button {
   background-color: #1f1d36;
-  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 481px) {
+  /* FirstSection */
+  .firstsection .container {
+    padding-top: 2rem;
+  }
+  .firstsection img {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* EndSection */
+  /* SecondSection */
+  .SecondSection .right p {
+    margin-top: 0;
+  }
+  .SecondSection .left {
+    margin-right: 0;
+    padding-bottom: 20px;
+  }
+  /* EndSection */
+  /* FourSection */
+  .FourSection .gambar img {
+    width: 90%;
+    margin: 1rem;
+  }
+  /* ENdSection */
+  /* Testi */
+  .testi .card {
+    width: 18rem;
+  }
+  /* EndTesti */
+}
+@media screen and (min-width: 482px) and (max-width: 767px) {
+  .firstsection .container {
+    padding-top: 2rem;
+  }
+  .firstsection .left {
+    flex: 100%;
+  }
+  .firstsection img {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
