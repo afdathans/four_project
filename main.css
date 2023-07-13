@@ -121,8 +121,10 @@ section h2 {
 /* EndSection */
 /* Testi */
 .testi {
+  display: flex;
   background-color: #1f1d36;
 }
+
 .testi .card {
   background-color: #1f1d36;
   width: 20rem;
@@ -163,6 +165,12 @@ section h2 {
   /* Testi */
   .testi .card {
     width: 18rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testi .card img {
+    margin-left: auto;
+    margin-right: auto;
   }
   /* EndTesti */
 }
@@ -174,6 +182,14 @@ section h2 {
     flex: 100%;
   }
   .firstsection img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testi .card {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testi .card img {
     margin-left: auto;
     margin-right: auto;
   }
