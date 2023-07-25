@@ -2,15 +2,14 @@
   font-family: "Poppins";
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
-  color: white;
+  color: #fff;
 }
 nav {
   background-color: #1f1d36;
   font-weight: bold;
 }
-/* .container {
-  border: 1px solid;
+/* body {
+  overflow: hidden;
 } */
 section h2 {
   padding-top: 30px;
@@ -24,7 +23,7 @@ section h2 {
   flex-direction: row-reverse;
   flex-wrap: wrap;
   padding-top: 11rem;
-  padding-bottom: 11rem;
+  padding-bottom: 5rem;
 }
 .firstsection img {
   margin-left: auto;
@@ -48,7 +47,54 @@ section h2 {
 .left button {
   background-color: #1f1d36;
   flex: 1;
+  border: none;
+  border-color: #1f1d36;
   margin-top: 20px;
+  color: #08aadb;
+  font-weight: bolder;
+  border-radius: 30%;
+}
+.left button:hover {
+  border: none;
+  background-color: #fff;
+  background: -webkit-linear-gradient(45deg, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.call {
+  display: flex;
+}
+.call1,
+.call2 {
+  padding-right: 4rem;
+}
+.call1 h5,
+.call1 i {
+  color: aqua;
+  background: -webkit-linear-gradient(45deg, #08aadb, #f07328);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.call1 h5:hover,
+.call1 i:hover {
+  color: #1f1d36;
+  background: -webkit-linear-gradient(45deg, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.call2 h5,
+.call2 i {
+  color: aqua;
+  background: -webkit-linear-gradient(45deg, red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.call2 h5:hover,
+.call2 i:hover {
+  color: #1f1d36;
+  background: -webkit-linear-gradient(45deg, #08aadb, #f07328);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 /* EndSection */
 /* SecondSection */
@@ -90,6 +136,7 @@ section h2 {
 }
 .ThreeSection .card p {
   margin-top: auto;
+  text-align: center;
 }
 /* EndSection */
 /* FourSection */
@@ -128,6 +175,11 @@ section h2 {
 .testi .card {
   background-color: #1f1d36;
   width: 20rem;
+}
+.testi .card img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
 }
 /* EndTesti */
 .SixSection {
